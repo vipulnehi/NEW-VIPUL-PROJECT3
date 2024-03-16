@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(52, 49, 43);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left{
+    font-size: 2rem;
+}
+.ul a{
+    color: rgb(249, 228, 200);
+    text-decoration: none;
+     transition: 0.2s ease-out 0ms;
+}
+.ul a:hover{
+    color: rgb(139, 137, 122);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#8694a0 ;
+    
+    
+}
+.container{
+    display: flex;
+}
+.header-left{
+    padding-top: 50px;
+    
+}
+.vipul{
+    width: 60px;
+   
+}
+/* hteading */
+.header-left h1{
+    margin-bottom: 40px;
+    margin-left: 40px;
+    font-size: 35px;
+}
+
+/* paragraph */
+.header-left p{
+   
+    margin-bottom: 25px;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+
+/* animated paragraph */
+.ani-text {
+width: 500px;
+overflow: hidden;
+text-align: center;
+font-family:  'Poppins',sans-serif;
+
+}
+
+.ani-text .text{
+    position: relative;
+    font-size: 25px;
+    color: rgb(67, 67, 218);
+    font-weight: 800;
+}
+.ani-text .first-text{
+    color: rgb(230, 190, 138);
+}
+
+.ani-text .sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    border-left: 2px solid #4070F4;
+    animation: animate 4s steps(11) infinite;
+    overflow: hidden;
+    
+}
+@keyframes animate{
+      40%, 60%{
+        left: 100%;
+      }
+      100%{
+        left: 0%;
+      }
+}
+/* button? ? */
+
+.header-left a{
+
+ background-color: rgb(0, 3, 3);
+ border: 2px solid wheat;
+ border-radius: 2px;
+color: antiquewhite;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 1rem;
+ letter-spacing: .1;
+ font-weight: 400;
+ padding: 10px 30px;
+ transition: 0.5s;
+ margin-left: 180px;
+ 
+
+
+ 
+}
+.header-left a:hover{
+    background: var(--clr);
+    letter-spacing: 0.25rem;
+    box-shadow: 0 0 35px var(--clr);
+    
+}
+.container a{
+
+    background-color: black;
+    text-decoration: none;
+    border: 2px solid;
+
+}
+
+/* image? */
+.header-right img{
+width: 400px;
+}
+ 
+
+/* cheating code */
+.informatin{
+    background-color: rgb(0, 3, 3);
+   
+    border-radius: 2px;
+   color: antiquewhite;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: .1;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    margin-left: 200px;
+    margin-right: 180px;
+    margin-top: 100px;
+    
+
+}
+.space{
+    margin-bottom: 90px;
+}
+.informatin:hover{
+ box-shadow: 0px 8px 28px;
+}
+
+.selfintro{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.informatin img{
+    width: 300px;
+    margin-bottom: 0px;
+}
+.info{
+    display: inline;
+    padding-top: 50px;
+    text-align: center;
+}
+.info h2{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.head{
+   font-size: 30px;
+   margin-left: 280px;
+   margin-top: 25px;
+}
+/* footer? section */
+.logo{
+    
+    justify-content: space-between;
+    display: flex;
+    margin-left: 900px;
+
+    margin-top: 100px;
+    padding: 30px 30px ;
+    transition: .3s ease-out 0;
+}
+.logo:hover{
+    size: 40px;
+}
+img{
+
+  width: 30px;
+  border-radius: 4px;
+  transition: 0.6s;
+}
+/* footer section */
+.footer-cont{
+    max-height: 300px;
+    background-color: #17181a;
+    
+}
+.containare{
+    display: flex;
+
+
+}
+.containare .fab{
+  
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 1rem;
+     letter-spacing: .1;
+     font-weight: 400px;
+     padding: 10px 30px;
+     padding-top:100% ;
+     margin-bottom: 50px;
+}
+.project-button{
+    margin-top: 20px;
+}
